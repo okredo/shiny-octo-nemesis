@@ -1,3 +1,6 @@
+.refer-button {
+  float:right;
+}
 .slide.ng-leave {
   position: relative;
 }

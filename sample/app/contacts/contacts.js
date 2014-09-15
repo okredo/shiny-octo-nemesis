@@ -111,9 +111,14 @@ angular.module('uiRouterSample.contacts', [
             // So this one is targeting the unnamed view within the parent state's template.
             '': {
               templateUrl: 'app/contacts/contacts.detail.html',
-              controller: ['$scope', '$stateParams', 'utils',
-                function (  $scope,   $stateParams,   utils) {
+              controller: ['$scope', '$stateParams', '$state', 'utils',
+                function (  $scope,   $stateParams, $state,  utils) {
                   $scope.contact = utils.findById($scope.contacts, $stateParams.contactId);
+                  
+                  // refer action stub 
+                  $scope.refer = function () {
+                    $state.go('home', $stateParams);
+                  };
                 }]
             },
 

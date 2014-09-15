@@ -2,7 +2,7 @@
   "contacts":[
     {
       "id": 1,
-      "name": "Alice",
+      "name": "Louise",
       "items": [
         {
           "id": "a",
@@ -12,18 +12,18 @@
         {
           "id": "b",
           "type": "email",
-          "value": "alice@mailinator.com"
+          "value": "louise@mailinator.com"
         }
       ]
     },
     {
       "id": 42,
-      "name": "Bob",
+      "name": "Grant",
       "items": [
         {
           "id": "a",
           "type": "blog",
-          "value": "http://bob.blogger.com"
+          "value": "http://grant.blogger.com"
         },
         {
           "id": "b",
@@ -40,6 +40,17 @@
           "id": "a",
           "type": "full name",
           "value": "Eve Adamsdottir"
+        }
+      ]
+    },
+    {
+      "id": 1255,
+      "name": "Gylfi",
+      "items": [
+        {
+          "id": "a",
+          "type": "full name",
+          "value": "Gylfi Siggurdsen"
         }
       ]
     }
